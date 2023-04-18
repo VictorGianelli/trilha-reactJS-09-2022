@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/victorgianelli.png',
     alt: 'Victor Gianelli',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
